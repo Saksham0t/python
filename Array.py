@@ -1,4 +1,5 @@
 from array import *
+from numpy import *
 
 # vals= array('i',[3,5,6,2])
 # print(vals)
@@ -14,22 +15,23 @@ from array import *
 # for g in New_vals:
 #     print(g)
 
-val = array('i',[])
-x = int(input("Enter the number of values: "))
-for e in range(x):
-    x=int(input("Enter the number: "))
-    val.append(x)
-print(val)
-n = int(input("Enter the number to find: "))
-k=0
-for g in val:
-    if n==g:
-        print(k)
-        break
-    k+=1
-else:
-    print("not in array")
-print(val.index(n))
+# val = array('i',[])
+# x = int(input("Enter the number of values: "))
+# for e in range(x):
+#     x=int(input("Enter the number: "))
+#     val.append(x)
+# print(val)
+# n = int(input("Enter the number to find: "))
+# k=0
+# for g in val:
+#     if n==g:
+#         print(k)
+#         break
+#     k+=1
+# else:
+#     print("not in array")
+# print(val.index(n))
+
 
 
 
